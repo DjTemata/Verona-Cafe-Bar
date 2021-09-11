@@ -157,23 +157,26 @@ section#gallery {
     float: left;
 }
 
-@media (max-width:758px) {
-.row{
-    width: 100%;
-}
+@media screen and (max-width: 1200px) {
+    .column {
+      width: fit-content;
+      height: fit-content;
+    }
+  }
 
-#box1{
-    display: none;
-}
-}
-
-@media (max-width:600px) {
-#box1{
-    display: none;
-}
-}
-
-
+@media screen and (max-width: 768px) {
+    .column {
+      width: fit-content;
+      height: fit-content;
+    }
+  }
+  
+@media screen and (max-width: 600px) {
+    .column {
+      width: fit-content;
+      height: fit-content;
+    }
+  }
 
 
 
