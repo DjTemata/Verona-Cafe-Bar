@@ -155,7 +155,7 @@ section#gallery {
     text-align: center;
     width: 100%;
     height: 150px;
-    float: center;
+    float: left;
 }
 
 @media screen and (max-width: 1200px) {
