@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-body {
+body{
     background: black;
     color: blanchedalmond;
     line-height: 1.6;
@@ -11,10 +11,10 @@ body {
     overflow: hidden;
 }
 
+/* CSS Smooth Scroll */
 .container {
     width: 100%;
     height: 100%;
-    /* CSS Smooth Scroll */
     overflow-y: scroll;
     scroll-behavior: smooth;
     scroll-snap-type: y proximity;
@@ -34,27 +34,34 @@ body {
     display: flex;
     list-style: none;
     width: 100%;
-    justify-content: center;
+    justify-content: left;
+    float: left;
+    margin-left: 5%;
 }
 
-.navbar ul li  {
-    margin: 0rem   1rem;
-    padding: 1rem;
-}
-
-/*.navbar ul li{
+.navbar ul li{
     margin: 0;
     padding: 0; 
     position: relative;
     display: inline-block;
- }*/
+ }
 
-.navbar ul li a   {
-  display: flex;
+.navbar ul li a{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 45px;
+    color: blanchedalmond;
     text-decoration: none;
     text-transform: uppercase;
+    padding: 15px;
+}
+
+.navbar ul li:hover{
+    background-color: blue;
     color: blanchedalmond;
 }
+
+/*End of Toggle Navbar*/
 
 .flex-container {
     display: flex;
@@ -66,10 +73,6 @@ flex-direction: row;
 background-color: black;
 margin: 30px;
 padding: 20px;
-}
-
-.navbar ul li a:hover   {
-  color: blanchedalmond; 
 }
 
 .column {
@@ -88,8 +91,8 @@ section {
     width: 100%;
     height: 100vh;
     scroll-snap-align: center;
-}
- 
+  }
+
 section h1  {
     font-size: 4rem;
     font-family: 'Cinzel';
@@ -108,35 +111,35 @@ section#home {
 }
 
 section#about {
-   background: url('images/vid4b.jpg') no-repeat center center/ cover; 
-   transition: height 4s;
-}
+    background: url('images/vid3c.jpg') no-repeat center center/ cover; 
+    transition: height 4s;
+ }
 
 section#menu {
-    background: url('images/vid3c.jpg') no-repeat center center/ cover; 
+    background: url('images/vid4b.jpg') no-repeat center center/ cover; 
     transition: height 4s;
 }
 
 .pill-nav a {
-  display: inline-block;
-  color: blanchedalmond;
-  text-align: center;
-  padding: 20px;
-  text-decoration: none;
-  font-size: 21px;
-  font-family: "Open Sans";
-  border-radius: 5px;
-}
-
-.pill-nav a:hover {
-  background-color: black;
-  color: blanchedalmond;
-}
-
-.pill-nav a.active {
-  background-color: black;
-  color: blanchedalmond;
-}
+    display: inline-block;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 21px;
+    font-family: "Open Sans";
+    border-radius: 5px;
+  }
+  
+  .pill-nav a:hover {
+    background-color: blue;
+    color: blanchedalmond;
+  }
+  
+  .pill-nav a.active {
+    background-color: black;
+    color: blanchedalmond;
+  }
 
 section#contact {
     transition: height 4s;
@@ -190,6 +193,14 @@ section#gallery {
     .column {
       width: fit-content;
       height: fit-content;
+    }
+  }
+
+@media screen and (max-width: 350px){
+    .toggle{
+        display:block;
+        width: fit-content;
+        height: fit-content;
     }
   }
 
