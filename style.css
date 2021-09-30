@@ -197,12 +197,13 @@ section#gallery {
   }
 
 @media screen and (max-width: 350px){
-    .toggle{
+    .navbar{
         display:block;
         width: fit-content;
         height: fit-content;
     }
   }
+
 
 
 
