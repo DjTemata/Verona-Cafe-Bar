@@ -18,14 +18,33 @@ body{
     scroll-snap-type: y proximity;
 }
 /*Beginning of Navbar*/
+
+/* Style the top navigation bar */
 .navbar {
+  overflow: hidden;
+  background-color: black;
+}
+ 
+ /*.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}*/
+ 
+.navbar {
+    float: left;
     position: fixed;
     top: 0;
     z-index: 1;
-    display: flex;
+    display: block;
     width: 100%;
     height: 60px;
     background: rgba(0,0,0,7);
+    text-align: center;
+    text-decoration: none;
 }
 
 .navbar ul  {
@@ -169,7 +188,7 @@ section#gallery {
 
 /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .container  {
+  .navbar  {
     float: none;
     width: 100%;
 }
