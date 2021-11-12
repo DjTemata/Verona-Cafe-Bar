@@ -4,7 +4,7 @@
 }
 
 body {
-   background: black;
+  background: black;
   color: blanchedalmond;
   line-height: 1.6;
   height: 100vh;
@@ -55,10 +55,10 @@ display: flex;
 }
 
 .flex-container > div {
-flex-direction: row;
-background-color: black;
-margin: 30px;
-padding: 20px;
+  flex-direction: row;
+  background-color: black;
+  margin: 30px;
+  padding: 20px;
 }
 
 .navbar ul li a:hover   {
@@ -188,12 +188,13 @@ section#gallery {
     width: fit-content;
     height: fit-content:   
 }
-  .navbar{
-     width: 480px;
-     height: 840;
+  .navbar {
+    float: none;
+    width: 100%;
   }
-}
-  
+ }
+
+
 
 
 
