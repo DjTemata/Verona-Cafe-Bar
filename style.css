@@ -177,6 +177,10 @@ section#gallery {
     width: fit-content;
     height: fit-content;
   }
+    .navbar{
+     width: 600px;
+     height: 840;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -187,6 +191,7 @@ section#gallery {
   .navbar{
      width: 480px;
      height: 840;
+  }
 }
   
 
