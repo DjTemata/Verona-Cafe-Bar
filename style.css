@@ -188,11 +188,15 @@ section#gallery {
     width: fit-content;
     height: fit-content:   
 }
-  .navbar {
-    float: none;
-    width: 100%;
+
+.navbar {
+  width:100%;
+  text-align: left;
   }
- }
+}
+
+
+
 
 
 
