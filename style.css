@@ -1,206 +1,190 @@
 * {
- box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    background: black;
-    color: blanchedalmond;
-    line-height: 1.6;
-    height: 100vh;
-    overflow: hidden;
-}
-
-/* CSS Smooth Scroll */
-.container {
-    width: 100%;
-    height: 100%;
-    overflow-y: scroll;
-    scroll-behavior: smooth;
-    scroll-snap-type: y proximity;
-}
-/*Beginning of Navbar*/
-
-/* Style the top navigation bar */
-.navbar {
+body {
+   background: black;
+  color: blanchedalmond;
+  line-height: 1.6;
+  height: 100vh;
   overflow: hidden;
-  background-color: black;
 }
- 
- /*.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}*/
- 
+
+.container {
+  width: 100%;
+  height: 100%;
+  /* CSS Smooth Scroll */
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-type: y proximity;
+}
+
 .navbar {
-    float: left;
-    position: fixed;
-    top: 0;
-    z-index: 1;
-    display: block;
-    width: 100%;
-    height: 60px;
-    background: rgba(0,0,0,7);
-    text-align: center;
-    text-decoration: none;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  background: rgba(0,0,0,7);
 }
 
 .navbar ul  {
-    display: flex;
-    list-style: none;
-    width: 100%;
-    justify-content: left;
-    float: left;
-    margin-left: 5%;
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: center;
 }
 
-.navbar ul li{
-    margin: 0;
-    padding: 0; 
-    position: relative;
-    display: inline-block;
- }
-
-.navbar ul li a{
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 45px;
-    color: blanchedalmond;
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 15px;
+.navbar ul li  {
+  margin: 0rem   1rem;
+  padding: 1rem;
 }
 
-.navbar ul li:hover{
-    background-color: blue;
-    color: blanchedalmond;
+.navbar ul li a   {
+display: flex;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: blanchedalmond;
 }
-/*End of Navbar*/
 
 .flex-container {
-    display: flex;
-    background-color: black;
-  }
-  
+  display: flex;
+  background-color: black;
+}
+
 .flex-container > div {
-    flex-direction: row;
-    background-color: black;
-    margin: 30px;
-    padding: 20px;
+flex-direction: row;
+background-color: black;
+margin: 30px;
+padding: 20px;
+}
+
+.navbar ul li a:hover   {
+color: blanchedalmond; 
 }
 
 .column {
-    float: left;
-    width: 20%;
-    height: 10%;
-    padding: 5px;
-  }
+  float: left;
+  width: 20%;
+  height: 10%;
+  padding: 5px;
+}
 
 section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    width: 100%;
-    height: 100vh;
-    scroll-snap-align: center;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  scroll-snap-align: center;
+}
 
 section h1  {
-    font-size: 4rem;
-    font-family: 'Cinzel';
-    font-weight: lighter;
+  font-size: 4rem;
+  font-family: 'Cinzel';
+  font-weight: lighter;
 }
 
 section p   {
-    font-size: 1rem;
-    font-family: "Open Sans";
-    font-weight: lighter; 
+  font-size: 1rem;
+  font-family: "Open Sans";
+  font-weight: lighter; 
 }
 
 section#home {
-    background: url('images/vid2b.jpg') no-repeat center center/ cover;
-    transition: height 4s;
+  background: url('images/vid2b.jpg') no-repeat center center/ cover;
+  transition: height 4s;
 }
 
 section#about {
-    background: url('images/vid3c.jpg') no-repeat center center/ cover; 
-    transition: height 4s;
- }
+ background: url('images/vid4b.jpg') no-repeat center center/ cover; 
+ transition: height 4s;
+}
 
 section#menu {
-    background: url('images/vid4b.jpg') no-repeat center center/ cover; 
-    transition: height 4s;
+  background: url('images/vid3c.jpg') no-repeat center center/ cover; 
+  transition: height 4s;
 }
 
 .pill-nav a {
-    display: inline-block;
-    color: blanchedalmond;
-    text-align: center;
-    padding: 20px;
-    text-decoration: none;
-    font-size: 21px;
-    font-family: "Open Sans";
-    border-radius: 5px;
-  }
-  
-  .pill-nav a:hover {
-    background-color: blue;
-    color: blanchedalmond;
-  }
-  
-  .pill-nav a.active {
-    background-color: black;
-    color: blanchedalmond;
-  }
+display: inline-block;
+color: blanchedalmond;
+text-align: center;
+padding: 20px;
+text-decoration: none;
+font-size: 21px;
+font-family: "Open Sans";
+border-radius: 5px;
+}
+
+.pill-nav a:hover {
+background-color: black;
+color: blanchedalmond;
+}
+
+.pill-nav a.active {
+background-color: black;
+color: blanchedalmond;
+}
 
 section#contact {
-    transition: height 4s;
+  transition: height 4s;
 }
 
 iframe {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    width: 100%;
-    height: 50%; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 50%; 
 }
 
 section#gallery {
-    background: url('') no-repeat center center/ cover; 
-    transition: height 4s;
-    justify-content: center;
+  background: url('') no-repeat center center/ cover; 
+  transition: height 4s;
 }
 
 .row{
-    padding: 10px;
-    text-align: center;
-    width: 100%;
-    height: 150px;
-    float: left;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  height: 150px;
+  float: left;
 }
 
-
-/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .navbar  {
-    float: none;
-    width: 100%;
-}
-
-/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other 
-@media screen and (max-width: 600px) {
-  .topnav a {
-    float: none;
-    width: 100%;
+@media only screen and (max-width: 1200px) {
+  .column {
+    width: fit-content;
+    height: fit-content;
   }
-}*/
+}
+
+@media only screen and (max-width: 768px) {
+  .column {
+    width: fit-content;
+    height: fit-content;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .column {
+    width: fit-content;
+    height: fit-content;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .column {
+    width: fit-content;
+    height: fit-content;
+  }
+}
 
 
 
