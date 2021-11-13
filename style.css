@@ -93,7 +93,7 @@ section h1  {
 }
 
 section p   {
-  font-size: 1rem;
+  font-size: 2rem;
   font-family: "Open Sans";
   font-weight: lighter; 
 }
@@ -161,6 +161,7 @@ section#gallery {
   float: left;
 }*/
 
+/* CSS for Tablet Screens*/
 @media (max-width: 758px) {
   .column {
     width: 100%;
@@ -171,6 +172,20 @@ section#gallery {
     display: none;
   }
  }
+
+/* CSS for Smart Phones*/
+@media (max-width: 600px) {
+  section h1  {
+    font-size: 2rem;
+  }
+  
+  section p {
+    font-size: 1rem;
+  }
+}
+    
+  
+  
 
 
 
