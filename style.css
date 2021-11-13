@@ -87,13 +87,13 @@ section {
 }
 
 section h1  {
-  font-size: 4rem;
+  font-size: 64px;
   font-family: 'Cinzel';
   font-weight: lighter;
 }
 
 section p   {
-  font-size: 2rem;
+  font-size: 32px;
   font-family: "Open Sans";
   font-weight: lighter; 
 }
@@ -176,11 +176,11 @@ section#gallery {
 /* CSS for Smart Phones*/
 @media (max-width: 600px) {
   section h1  {
-    font-size: 2rem;
+    font-size: 32px;
   }
   
   section p {
-    font-size: 1rem;
+    font-size: 16px;
   }
 }
     
