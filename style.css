@@ -151,6 +151,7 @@ iframe {
 section#gallery {
   background: url('') no-repeat center center/ cover; 
   transition: height 4s;
+  padding: 15px;
 }
 
 .row{
