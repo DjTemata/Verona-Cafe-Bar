@@ -181,7 +181,7 @@ section#gallery {
   }
 }
     
-@media (orientation: landscape) {
+/*@media (orientation: landscape) {
   section {
     scroll-snap-align: none;
   }
@@ -202,7 +202,7 @@ section#gallery {
   .pill-nav a {
     font-size: 1rem;
   }
-}
+}*/
   
   
   
