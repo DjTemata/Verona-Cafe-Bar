@@ -164,6 +164,7 @@ section#gallery {
 @media (max-width: 758px) {
   .column {
     width: 100%;
+    height: fit-content;
   }
  }
 
