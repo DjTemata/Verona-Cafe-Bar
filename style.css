@@ -176,7 +176,7 @@ section#gallery {
 /* CSS for Smart Phones*/
 @media (max-width: 600px) {
   section h1  {
-    font-size: 2rem;
+    display: none;
   }
   
   section p {
