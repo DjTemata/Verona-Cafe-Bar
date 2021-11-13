@@ -155,10 +155,7 @@ section#gallery {
 }
 
 .row  { 
-  text-align: center;
-  width: 100%;
-  height: 150px;
-  float: left;
+  display: flex;
 }
 
 /* CSS for Tablet Screens*/
