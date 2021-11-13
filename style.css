@@ -35,7 +35,7 @@ body {
 }
 
 .navbar ul  {
-  display: contents;
+  display: flex;
   list-style: none;
   width: 100%;
   justify-content: center;
