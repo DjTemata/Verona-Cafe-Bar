@@ -149,7 +149,7 @@ iframe {
 }
 
 section#gallery {
-  background: url('') no-repeat center center/ cover; 
+  /*background: url('') no-repeat center center/ cover; */
   transition: height 4s;
   padding: 15px;
 }
@@ -181,7 +181,7 @@ section#gallery {
   }
 }
     
-/*@media (orientation: landscape) {
+@media (orientation: landscape) {
   section {
     scroll-snap-align: none;
   }
@@ -202,7 +202,7 @@ section#gallery {
   .pill-nav a {
     font-size: 1rem;
   }
-}*/
+}
   
   
   
