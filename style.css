@@ -93,7 +93,7 @@ section h1  {
 }
 
 section p   {
-  font-size: 1.5rem;
+  font-size: 21px;
   font-family: "Open Sans";
   font-weight: lighter; 
 }
@@ -180,7 +180,7 @@ section#gallery {
   }
   
   section p {
-    font-size: 1rem;
+    font-size: 16px;
   }
 }
     
