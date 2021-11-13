@@ -167,7 +167,7 @@ section#gallery {
     height: fit-content;
   }
   
-  .section#gallery {
+  section#gallery {
     display: none;
   }
  }
