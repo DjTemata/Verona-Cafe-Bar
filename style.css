@@ -161,39 +161,19 @@ section#gallery {
   float: left;
 }*/
 
-@media only screen and (max-width: 1200px) {
+@media (max-width: 758px) {
   .column {
-    width: fit-content;
+    width: 100%;
     height: fit-content;
+  }
+  
+  .navbar {
+    width: 100%;
+    height: fit content;
   }
 }
 
-@media only screen and (max-width: 768px) {
-  .column {
-    width: fit-content;
-    height: fit-content;
-  }
-}
 
-@media only screen and (max-width: 600px) {
-  .column {
-    width: fit-content;
-    height: fit-content;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  .column {
-    width: fit-content;
-    height: fit-content;
-  }
-}
-
-/*.navbar {
-  width:100%;
-  text-align: left;
-  }
-}*/
 
 
 
